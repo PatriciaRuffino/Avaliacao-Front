@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+  * {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+body{
+  font-family: "Robot Condesed" sans-serif;
+  background: radial-gradient(#e5e5e5, #fff, #e5e5e5) !important;
+ 
+}
+.root{
+  scroll-behavior: smooth;
+}
+
+nav a.nav-link{
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+
+}
+nav{
+  z-index: 2;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.logo{
+  margin-left: 0.75rem;
+  border-radius: 50px;
+}
+
+.navbar-nav > li > a{
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: #fff !important;
+}
+.navbar-nav > li > a:hover{
+color: #c0c0c0 !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+  border-bottom: 0.1875rem solid #FFA500;
+
+}
+.header-wraper{
+  position:realtive;
+  background: url(./components/img/DevOps_0.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+
+}
+#main-info{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Rototo Condesed", sans-serif;
+}
+h1{
+  color: #fff;
+  text-transform: uppercase;
+  border-top: 2px solid #c0c0c0;
+}
+
+@media(max-width:768 px){
+  .main-info h1{
+    font-size: 1.5 rem ! important;
+  }
+}
+.typed-text{
+  font-size: 1.7rem !important;
+  color: #fff;
+}
+.btn-main-offer{
+  border: 1px solid #FFA500 ;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: #FFA500;
+  margin: 2rem; 
+  text-decoration: none;
+  transition: .5s ease-out;
+}
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color: #FFA500;
+  color: #303030;
+  
+  
+}
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100 vh;
+   width: 100vw;
+   z-index: 1;
+}
+
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+ 
+}
+.footer-a{
+  text-decoration: none;
+  color: #fff!important;
+  justify-content: center;
+}
+
+.footer-a:hover{
+  color: #c0c0c0  !important;
+}
+
+.fotopaty{
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  margin-left: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menber-info{
+  margin-left: 5rem;
+}
+.resume-h3{
+  margin-top: 2rem;
+  text-align: center;
+
+}
+.resume-p{
+  text-align: center;
+  margin-left: 8rem;
+  
+}
+p{
+  margin-right: 10rem;
+}
+.btn-outline-success{
+  color: #FFA500 !important;
+  border-color:#FFA500 !important;
+  transition: .5s ease-out !important;
+}
+.btn-outline-success:hover{
+  background-color: #FFA500 !important;
+  color: #303030 !important;
+ 
+}
+.btn-outline-success:active{
+ box-shadow: 0 !important;
+ border-color: none !important;
+}
+.fotogit{
+  width: 200px;
+  height: 100px;
+}
+h2{
+  text-align: center !important;
+  border-top: 2px solid #c0c0c0;  
+}
+.card{
+  width: 20rem;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+.card:hover{
+  box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253);
+}
+.card-body{
+  padding: 3rem 0!important;
+  margin-left: 3rem !important;
+}
+.card-text{
+  font-size: 0.9rem; 
+  padding: 0.4rem 1.9rem;
+}
+.text-secondary{
+  padding: auto;
+
+}
+
+
+
+
+
