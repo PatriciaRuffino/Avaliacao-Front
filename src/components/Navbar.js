@@ -20,6 +20,8 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contato">Contato</a>
+            </li><li className="nav-item">
+              <a className="nav-link" href="#container">Sobre</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#port">Portifólio</a>

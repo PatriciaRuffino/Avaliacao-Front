@@ -113,12 +113,14 @@ h1{
   
   text-align: center !important;
 }
+
 .gmail{
   width: 30px;
   height: 30px;
-
-  
 }
+  
+
+
 .linkedin{
   width: 25px;
   height: 25px;
@@ -134,10 +136,13 @@ h1{
 .p-footer{
   text-align: center;
 }
+.text-light{
+  margin-left: 10rem;
+}
   
 .fotopaty{
   width: 200px;
-  height: 200px;
+  height: 150px;
   border-radius: 25px;
   margin-left: 2rem;
   margin-top: 4rem;
@@ -185,8 +190,9 @@ p{
 }
 h2{
   text-align: center !important;
-  border-top: 2px solid #c0c0c0;  
+  border-bottom: 2px solid #c0c0c0;  
 }
+
 .card{
   width: 20rem;
   margin-top: 2rem !important;
