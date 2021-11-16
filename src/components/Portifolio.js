@@ -24,8 +24,10 @@ const Portifolio = () => {
 						</div>
 						< div className="card-body text-dark">
 							<h4 className="card-title">{repository.name}</h4>
-							<p className="card-text text-secondary">{repository.description}</p>
+							<p className="card-text text-secondary ">{repository.description}</p>
 							<a href={repository.html_url} className="btn btn-outline-success" target="_blank">Saiba mais</a>
+							
+							
 						</div>
 					</div>
 
